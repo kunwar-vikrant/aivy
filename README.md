@@ -155,19 +155,19 @@ File an issue on GitHub if you encounter problems, and include logs for faster r
 
 Aivy is just the beginning! Here’s a roadmap to make it even more powerful:
 
-### Short-Term (1-3 Months)
+### Short-Term 
 
 - 🗣️ **Interruption Handling**: Reintroduce real-time interruption, allowing users to stop playback by speaking (currently disabled for stability).
 - 🎛️ **GUI for Device Selection**: Add a simple interface using `tkinter` or `PyQt` to choose audio devices.
 - ⚡ **STT Optimization**: Use smaller `faster_whisper` models (e.g., `base`) for faster transcription.
 
-### Medium-Term (3-6 Months)
+### Medium-Term 
 
 - 🎤 **Wake-Word Detection**: Implement "Hey Aivy" to activate listening using `webrtcvad` or `snowboy`.
-- 🌐 **Multilingual Support**: Extend STT and TTS to non-English languages with `whisper-large` and multilingual TTS models.
+- 🌐 **Multilingual Support**: Extend STT and TTS to non-English languages with `whisper-large` and multilingual TTS models.Integrate realtime web search and function calling.
 - 🔇 **Noise Cancellation**: Integrate `rnnoise` for robust performance in noisy environments.
 
-### Long-Term (6-12 Months)
+### Long-Term 
 
 - ☁️ **Cloud LLM Integration**: Support cloud-based LLMs (e.g., via xAI’s API) for users without powerful hardware.
 - 📱 **Mobile App**: Develop a mobile interface for Aivy using Kivy or Flutter.
