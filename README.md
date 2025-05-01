@@ -1,4 +1,4 @@
-🎙️ Aivy: Your Witty, Iron Man-Inspired Voice Assistant 🤖🚀
+# 🎙️ Aivy: Your Voice Assistant Brought to Life! 🤖🚀
 Welcome to Aivy, an open-source voice assistant that channels the charm and intelligence of Tony Stark’s iconic AI companion! Built with Python, Aivy combines real-time speech-to-text (STT), text-to-speech (TTS), and a local large language model (LLM) to deliver seamless, witty conversations. Whether you’re asking about the weather or craving a clever quip, Aivy is here to assist with style! 😎
  
 ✨ Features
