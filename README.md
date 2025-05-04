@@ -217,4 +217,4 @@ Have questions or ideas? Reach out via GitHub Discussions or open an issue. Let�
 
 ---
 
-⭐ **Star this repo if you love Aivy!** Join us in building the ultimate voice assistant inspired by Iron Man! 🚀🤖
+⭐ **Star this repo if you love Aivy!** Join us in building the ultimate voice assistant! 🚀🤖
