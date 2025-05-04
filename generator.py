@@ -12,7 +12,7 @@ from models import Model, ModelArgs
 from moshi.models import loaders
 from tokenizers.processors import TemplateProcessing
 from transformers import AutoTokenizer
-
+import os
 
 @dataclass
 class Segment:
@@ -26,7 +26,7 @@ def load_llama3_tokenizer():
     """
     Load LLaMA-3.2-1B tokenizer from local directory.
     """
-    tokenizer_path = "/home/wizard/Downloads/Llama-3.2-1B"
+    tokenizer_path = os.getenv("TOKENIZER_PATH")
     tokenizer = AutoTokenizer.from_pretrained(tokenizer_path, local_files_only=True)
     bos = tokenizer.bos_token
     eos = tokenizer.eos_token
@@ -494,7 +494,7 @@ def load_csm_1b(device: str = "cuda") -> Generator:
         torch.cuda.empty_cache()
         torch.cuda.synchronize()
     
-    local_model_path = "/home/wizard/Downloads/csm-1b"  # Folder with config + safetensors file(s)
+    local_model_path = os.getenv("CSM_MODEL_PATH")  # Folder with config + safetensors file(s)
 
     model = Model.from_pretrained(local_model_path) 
     
